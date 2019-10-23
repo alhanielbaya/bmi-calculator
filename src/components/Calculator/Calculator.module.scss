@@ -1,0 +1,25 @@
+.container {
+  max-width: 800px;
+  min-width: 400px;
+  margin: 0 18px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bmiContainer {
+  display: flex;
+  justify-content: space-between;
+  h4 {
+    margin-right: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 2rem;
+  }
+}
+
+.card {
+  position: relative;
+}
